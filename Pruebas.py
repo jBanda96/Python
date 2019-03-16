@@ -28,3 +28,12 @@ print("\n\n")
 tableOf = int(input("Tabla de multiplicar del: "))
 for i in range(1, 11):
     print(i*tableOf)
+    if i == 4: break
+
+#Números primos
+print("\n\n")
+for number in range(2, 10):
+    if number % 2 == 0:
+        print("Found an even number", number)
+        continue
+    print("Found a number", number)
